@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <script type="text/JavaScript" src="javascript/quiz.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz en HTML</title>
+    <LINK href="new2.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header__content">
+          <div class="logo" id="name">ALI FEKI </div>
+          <label for="check" class="checkbox">
+            <i class="ri-menu-line"></i>
+          </label>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cv.pdf">My CV</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+          </ul>
+        </div>
+    </header>
+    
+    
+      <h2>Quiz sur HTML,CSS,JS</h2>
+      <form id="quizForm">
+          <div class="question">
+              <p>1. Qu'est-ce que la balise "title" dans un document HTML ? </p>
+              <label><input type="radio" name="q1" value=" Elle affiche le titre principal dans la page web.">Elle affiche le titre principal dans la page web.</label><br>
+              <label><input type="radio" name="q1" value=" Elle définit le titre affiché dans l'onglet du navigateur.">  Elle définit le titre affiché dans l'onglet du navigateur.</label><br>
+              <label><input type="radio" name="q1" value="Elle insère une image dans la page."> Elle insère une image dans la page.</label><br>
+              <label><input type="radio" name="q1" value="Elle sert à inclure un fichier JavaScript."> Elle sert à inclure un fichier JavaScript.</label>
+          </div>
+  
+          <div class="question">
+              <p>2.Que signifie HTML ? </p>
+              <label><input type="radio" name="q2" value="HyperText Markup Language">HyperText Markup Language</label><br>
+              <label><input type="radio" name="q2" value="HighText Machine Language"> HighText Machine Language</label><br>
+              <label><input type="radio" name="q2" value="Hyperlink Text Management Language"> Hyperlink Text Management Language</label><br>
+              <label><input type="radio" name="q2" value="HyperText Main Language">HyperText Main Language</label>
+          </div>
+  
+          <div class="question">
+              <p>3.Quel élément HTML est utilisé pour insérer une image ?</p>
+              <label><input type="radio" name="q3" value='image'>image</label><br>
+              <label><input type="radio" name="q3" value='img'> img</label><br>
+              <label><input type="radio" name="q3" value='pic'>pic</label><br>
+              <label><input type="radio" name="q3" value= 'src'> src</label>
+          </div>
+          <div>
+            <p>4.Quel attribut HTML est utilisé pour fournir une description alternative à une image ?</p>
+            <label><input type="radio" name="q4" value="title">title</label><br>
+            <label><input type="radio" name="q4" value="alt">alt</label><br>
+            <label><input type="radio" name="q4" value="src">src</label><br>
+            <label><input type="radio" name="q4" value="description">description</label>
+        </div>
+        <div>
+            <p>5.Quel mot-clé CSS est utilisé pour appliquer un style unique à un élément spécifique ?</p>
+            <label><input type="radio" name="q5" value="class">class</label><br>
+            <label><input type="radio" name="q5" value="id">id</label><br>
+            <label><input type="radio" name="q5" value="tag">tag</label><br>
+            <label><input type="radio" name="q5" value="style">style</label>
+        </div>
+        <div>
+            <p>6.Quelle propriété CSS contrôle la taille de police ?</p>
+            <label><input type="radio" name="q6" value="text-size">text-size</label><br>
+            <label><input type="radio" name="q6" value="font-style">font-style</label><br>
+            <label><input type="radio" name="q6" value="font-size">font-size</label><br>
+            <label><input type="radio" name="q6" value="text-style">text-style</label>
+        </div>
+        <div>
+            <p>7.Comment écrire "Hello World" dans une alerte JavaScript ?</p>
+            <label><input type="radio" name="q7" value="alert('Hello World');">alert("Hello World"); </label><br>
+            <label><input type="radio" name="q7" value="msgBox('Hello World');">msgBox("Hello World");</label><br>
+            <label><input type="radio" name="q7" value="print('Hello World');">print("Hello World");</label><br>
+            <label><input type="radio" name="q7" value="console.log('Hello World');">console.log("Hello World");</label>
+        </div>
+        <div>
+            <p>8.Que retourne typeof null en JavaScript ?</p>
+            <label><input type="radio" name="q8" value="null">null </label><br>
+            <label><input type="radio" name="q8" value="object">object</label><br>
+            <label><input type="radio" name="q8" value="undefined">undefined</label><br>
+            <label><input type="radio" name="q8" value="number">number</label>
+        </div>
+        <div>
+            <p>9.Comment ajouter un élément en haut d’un tableau en JavaScript ?</p>
+            <label><input type="radio" name="q9" value="push()">push()</label><br>
+            <label><input type="radio" name="q9" value="shift()">shift()</label><br>
+            <label><input type="radio" name="q9" value="unshift()">unshift()</label><br>
+            <label><input type="radio" name="q9" value="pop()">pop()</label>
+        </div>
+        <div>
+            <p>10.Quelle méthode JavaScript est utilisée pour parcourir un tableau ?</p>
+            <label><input type="radio" name="q10" value="forEach()">forEach()</label><br>
+            <label><input type="radio" name="q10" value="map()">map()</label><br>
+            <label><input type="radio" name="q10" value="filter()">filter()</label><br>
+            <label><input type="radio" name="q10" value="Toutes les réponses ci-dessus">Toutes les réponses ci-dessus</label>
+        </div>
+        <div>
+            <p>11.Quel est l'élément HTML correct pour définir une liste ordonnée ?</p>
+            <label><input type="radio" name="q11" value="ul">ul</label><br>
+            <label><input type="radio" name="q11" value="ol">ol</label><br>
+            <label><input type="radio" name="q11" value="li">li</label><br>
+            <label><input type="radio" name="q11" value="list">list</label>
+        </div>
+        <div>
+            <p>12.Quel attribut HTML ouvre un lien dans un nouvel onglet ?</p>
+            <label><input type="radio" name="q12" value="new">new</label><br>
+            <label><input type="radio" name="q12" value="target='_blank'">target="_blank"</label><br>
+            <label><input type="radio" name="q12" value="href='_new'">href="_new"</label><br>
+            <label><input type="radio" name="q12" value="tab">tab</label>
+        </div>
+        <div>
+            <p>13.Quelle propriété CSS est utilisée pour changer la couleur de l'arrière-plan ?</p>
+            <label><input type="radio" name="q13" value="background-color">background-color</label><br>
+            <label><input type="radio" name="q13" value="color">color</label><br>
+            <label><input type="radio" name="q13" value="bg-color">bg-color</label><br>
+            <label><input type="radio" name="q13" value="back-color">back-color</label>
+        </div>
+        <div>
+            <p>14.Quelle sera la sortie de ce code ?  { console.log(0.1 + 0.2 === 0.3);}</p>
+            <label><input type="radio" name="q14" value="true">true</label><br>
+            <label><input type="radio" name="q14" value="false">false</label><br>
+            <label><input type="radio" name="q14" value="NaN">NaN</label><br>
+            <label><input type="radio" name="q14" value="undefined">undefined</label>
+        </div>
+        <button type="button" onclick="calculateScore()">Valider</button>
+        </form>
+    
+        <div id="result" class="result" style="display: none;"></div>
+    
+<footer>
+    <table>
+        <tr>
+            <td>
+        <h1>My faccbook</h1>
+    </td>
+        <td>
+            <a href="https://www.facebook.com/ali.feki.71">
+            <img src="images/facebook.png" width="60" height="60" alt="faccbook">
+        </a>
+        </td>       
+        </tr> 
+    <tr> 
+        <td> 
+
+    <h1>My instagram</h1>
+</td>
+<td>
+    <a href="https://www.instagram.com/ali__feki/">
+    <img src="images/instagram.png" width="50" height="50" alt="instagram">
+</a>
+</td>
+        </tr>
+        <td>
+        <h1>Linkdin</h1>
+    </td>
+    <td>
+        <a href="https://www.linkedin.com/in/ali-feki-8a1a97317/">
+        <img src="images/linkdin.jpg" width="50" height="50" alt="linkdin">
+    </a>
+    </td>
+            </tr>
+            <tr>
+                <td><h1>GMAIL</h1></td>
+              <td>
+                
+                <a href="mailto:alifeki22@gmail.com">
+                <img src="images/gmail.png" width="50" height="50" alt="linkdin">
+            </a>
+            </td>
+          </tr>
+
+    </table>
+</footer>
+</body>
+</html>

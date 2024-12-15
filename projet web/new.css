@@ -1,0 +1,221 @@
+#name{
+font-family: 'Roboto', sans-serif; 
+  font-size: 50px; 
+  color: #4CAF50;
+  text-align:center; 
+  text-transform: uppercase; 
+  letter-spacing: 5px; 
+  margin: 20px 50px; 
+  padding: 10px; 
+  border: 3px solid #4CAF50; 
+  border-radius: 11px; 
+  background-color: #f9f9f9;
+  transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+#name:hover {
+  color: #ffffff; 
+  background-color: #4CAF50; 
+  transform: scale(1.05); 
+}
+
+
+header {
+  width:100%;
+    background-color: #ffffff;
+}
+.header__content {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+ul li a {
+    font-family: 'Verdana', sans-serif; 
+    font-size: 18px; 
+    color: #333; 
+    line-height: 1.8; 
+    padding: 8px 16px; 
+    margin: 5px 0; 
+    list-style-type: disc;
+    list-style-position: inside;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9; 
+    transition: background-color 0.3s ease; 
+  }
+ 
+  li :hover {
+  background-color: #1b7f3c; 
+  cursor: pointer;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color:hsl(214, 44%, 87%);}
+  .question {
+    margin-bottom: 20px;
+}
+#name{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px; 
+  font-weight: bold; 
+  color:#6b7280; 
+  text-align: center; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+  
+}
+
+
+.section {
+  background-color: var(--extra-light);
+}
+.section__container {
+  min-height: 100vh;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.subtitle {
+  letter-spacing: 2px;
+  color: var(--text-light);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.title span {
+  font-weight: 600;
+}
+.description {
+  line-height: 1.5rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+.action__btns {
+  display: flex;
+  gap: 1rem;
+}
+.action__btns button {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.hire__me {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+.hire__me:hover {
+  background-color: var(--primary-color-dark);
+}
+.AboutMe {
+  color: var(--primary-color);
+}
+.AboutMe:hover {
+  background-color: var(--primary-color-dark);
+  color: #ab8296;
+}
+.image {
+  display: grid;
+  place-items: center;
+}
+.image img {
+  width: min(25rem, 90%);
+  border-radius: 100%;
+  box-shadow: 30px 10px 15px rgba(104, 126, 147, 0.96);
+
+}
+footer {
+  background-color:white; 
+  color: black; 
+  padding: 20px 0; 
+  text-align: center; 
+  font-family: Arial, sans-serif; 
+}
+footer image{
+    width: 75%; 
+    max-width: 75px; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    display: block; 
+    margin: 20px auto; 
+    transition: transform 0.3s ease; 
+}
+  
+  img:hover {
+    transform: scale(1.1); 
+  }
+  p {
+    font-family: 'Georgia', serif; 
+    font-size: 18px; 
+    line-height: 1.6; 
+    color: #555; 
+    text-align: justify;
+    margin: 10px 0; 
+    padding: 10px; 
+    background-color: #f9f9f9; 
+    border-left: 4px solid #4CAF50;
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  button{
+    margin: 25px;;
+    background-color: #4CAF50;
+    color: white; 
+    padding: 12px 24px; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #0a0a0a; 
+  }
+  input[type="radio"] {
+    width: 20px; 
+    height: 20px; 
+    border: 5px solid #4CAF50; 
+    border-radius: 50%; 
+    outline: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+
+
+

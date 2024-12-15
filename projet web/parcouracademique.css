@@ -1,0 +1,168 @@
+#name{
+  font-family: 'Roboto', sans-serif; 
+    font-size: 50px; 
+    color: #4CAF50;
+    text-align:center; 
+    text-transform: uppercase; 
+    letter-spacing: 5px; 
+    margin: 20px 50px; 
+    padding: 10px; 
+    border: 3px solid #4CAF50; 
+    border-radius: 11px; 
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, color 0.3s ease; 
+  }
+  
+  #name:hover {
+    color: #ffffff; 
+    background-color: #4CAF50; 
+    transform: scale(1.05); 
+  }
+header {
+  width:100%;
+    background-color: #ffffff;
+}
+.header__content {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#name{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:  50px;; 
+  font-weight: bold; 
+  font-style: italic;
+  color: #333; 
+  text-align: center; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  
+}
+ul {
+  
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+ul li a {
+    font-family: 'Verdana', sans-serif; 
+    font-size: 18px; 
+    color: #333; 
+    line-height: 1.8; 
+    padding: 8px 16px; 
+    margin: 5px 0; 
+    list-style-type: disc;
+    list-style-position: inside;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9; 
+    transition: background-color 0.3s ease; 
+  }
+ 
+  li :hover {
+  background-color: #1b7f3c; 
+  cursor: pointer;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color:hsl(214, 44%, 87%);}
+  .question {
+    margin-bottom: 20px;
+}
+h2{
+  font-family: 'Arial', sans-serif; 
+  font-size: 36px; 
+  color: #656161; 
+  text-align: center; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  margin: 20px 0; 
+  padding: 10px; 
+  background-color: #ffffff;
+  border: 2px solid #ffffff; 
+  border-radius: 8px; 
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); 
+} 
+h2:hover {
+  color: #945939; 
+  border-left-color: #2c3e50;
+}
+h3 {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px; 
+  color: #2c3e50; 
+  text-transform: capitalize; 
+  margin: 15px 0; 
+  padding: 10px; 
+  border-left: 4px solid #3498db; 
+  background-color: #f0f8ff; 
+  line-height: 1.5; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: color 0.3s ease, border-left-color 0.3s ease; 
+}
+
+h3:hover {
+  color: #3498db; 
+  border-left-color: #2c3e50; 
+}
+h4 {
+  font-family: 'Tahoma', sans-serif; /* Police moderne et compacte */
+  font-size: 20px; /* Taille du texte */
+  font-weight: bold; /* Texte en gras */
+  color: #4CAF50; /* Couleur verte */
+  text-align: left; /* Alignement à gauche */
+  margin: 10px 0; /* Espacement vertical */
+  padding: 8px 12px; /* Espaces internes */
+  border-bottom: 2px solid #4CAF50; /* Ligne sous le texte */
+  background-color: #f9f9f9; /* Couleur de fond */
+  text-transform: uppercase; /* Texte en majuscules */
+  letter-spacing: 1.5px; /* Espacement entre les lettres */
+  transition: color 0.3s ease, border-bottom-color 0.3s ease; /* Animation au survol */
+}
+p {
+  font-family: 'Georgia', serif; 
+  font-size: 18px; 
+  line-height: 1.6; 
+  color: #555; 
+  text-align: justify;
+  margin: 10px 0; 
+  padding: 10px; 
+  background-color: #f9f9f9; 
+  border-left: 4px solid #4CAF50;
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+footer image{
+  width: 75%; 
+  max-width: 75px; 
+  height: auto; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  display: block; 
+  margin: 20px auto; 
+  transition: transform 0.3s ease; 
+}
+
+img:hover {
+  transform: scale(1.1); 
+}
+
+
+
+
+
+    
+
+
+
+
+
+    
